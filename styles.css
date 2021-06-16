@@ -134,6 +134,14 @@ h3{
     text-align: center;
     white-space: nowrap;
 }
+.greenButton:hover{
+    background:        
+        linear-gradient(
+          rgba(0, 0, 0, 0.1), 
+          rgba(0, 0, 0, 0.1)
+        ),        
+        #a3cd8c;    
+}
 #gradient{
     background: linear-gradient(to top, #38445e 0%, #49617c 25%, #434e6c 75%, #373f55 100%);
 }
@@ -170,6 +178,9 @@ h3{
     -moz-user-select: none;
     -khtml-user-select: none;
     user-select: none; 
+}
+.opacity:hover{
+    background-color: rgba(0,0,0, 0.5);
 }
 .greenOpacityButton>img{
     margin-left: 10px;    
